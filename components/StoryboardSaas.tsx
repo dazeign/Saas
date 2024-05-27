@@ -90,7 +90,26 @@ const StoryboardSaas = () => {
                 >
                   Get Started
                 </div>
-                <div className={"w-5 h-5 relative"} />
+                <div className={"w-5 h-5 relative"}>
+                  <Image
+                    alt={"Pasted Image"}
+                    fetchpriority={undefined}
+                    loading={"lazy"}
+                    width={40}
+                    height={40}
+                    decoding={"async"}
+                    data-nimg={"1"}
+                    className={"w-full h-full"}
+                    style={{
+                      color: "transparent",
+                    }}
+                    sizes={undefined}
+                    srcSet={undefined}
+                    src={"/images/tempo-image-20240522T151725505Z.png"}
+                    onLoad={() => console.log("onLoad")}
+                    onError={() => console.log("onError")}
+                  />
+                </div>
               </div>
             </div>
           </div>
